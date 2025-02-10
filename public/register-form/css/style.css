@@ -1,3 +1,20 @@
+/* Add this CSS to your style.css file */
+.back-button {
+  display: inline-block;
+  background-color: #67aef0; /* Same as register button color */
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px; /* Adds space below the back button */
+  font-size: 16px;
+}
+
+.back-button:hover {
+  background-color: #4899e4; /* Darker shade on hover */
+}
+
 /* @extend display-flex; */
 display-flex, .display-flex, .display-flex-center, .signup-content, .signin-content, .social-login, .socials {
   display: flex;
